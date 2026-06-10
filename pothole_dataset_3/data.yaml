@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['pothole']
+
+roboflow:
+  workspace: laura-hjwf7
+  project: pothole-at-night
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/laura-hjwf7/pothole-at-night/dataset/1
